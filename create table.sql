@@ -1,0 +1,14 @@
+CREATE TABLE students(
+NAME TEXT,
+AGE INTEGER,
+MARKS INTEGER,
+CLASS TEXT,
+ID NUMBER INTEGER);
+INSERT INTO students(NAME,AGE,MARKS,CLASS,ID)VALUES
+("John",15,85,"10th",56),
+("Alice",14,90,"9th",57),
+("Aline",16,70,"11th",58),
+("Charlie",18,75,"12th",59),
+("Frank",17,80,"11th",60);
+SELECT * FROM students;
+SELECT NAME,CLASS FROM students;
